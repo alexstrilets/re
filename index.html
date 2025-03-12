@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donna's Real Estate Website</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container">
+          <a class="navbar-brand" href="#home">
+            <span class="text-primary fw-bold">Donna's</span> Real Estate
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#buying-home">Buying a Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#selling-home">Selling a Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#faqs">FAQs</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section id="home" class="py-5 bg-primary text-white position-relative">
+      <div class="hero-overlay position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"></div>
+      <div class="container position-relative py-5">
+        <div class="row py-5">
+          <div class="col-lg-8 mx-auto text-center py-5">
+            <h1 class="display-4 fw-bold mb-4">Welcome to Donna's Real Estate Services</h1>
+            <p class="lead mb-4">
+              Experience, integrity, and willingness to go the extra mile are some of
+              the best attributes you can get when allowing me to help you with the
+              sale or purchase of your new home.
+            </p>
+            <p class="mb-5">
+              Whether you're buying or selling, I'm here to guide you every step of
+              the way.
+            </p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+              <a href="#contact" class="btn btn-light btn-lg px-4 me-sm-3 fw-bold">Contact Me</a>
+              <a href="#about" class="btn btn-outline-light btn-lg px-4">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="py-5 bg-light">
+      <div class="container py-4">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center mb-5">
+            <h2 class="fw-bold mb-4">About Donna</h2>
+            <div class="divider-custom mx-auto mb-4">
+              <div class="divider-custom-line"></div>
+              <div class="divider-custom-icon"><i class="fas fa-home"></i></div>
+              <div class="divider-custom-line"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-md-6 mb-4 mb-md-0">
+            <div class="p-4 bg-white shadow rounded">
+              <p class="lead">
+                Donna is a highly experienced realtor in the Edmonton area, known for
+                her integrity and dedication to her clients. With over 15 years in
+                the industry, she has helped numerous families find their dream homes
+                and sell their properties efficiently.
+              </p>
+              <p>
+                What sets Donna apart is her personalized approach and her commitment to
+                going above and beyond for her clients. She believes in building
+                long-term relationships based on trust and transparency.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card border-0 shadow">
+              <div class="card-header bg-primary text-white">
+                <h3 class="h5 mb-0 text-center"><i class="fas fa-quote-left me-2"></i>Testimonials</h3>
+              </div>
+              <div class="card-body">
+                <div class="testimonial mb-4 pb-3 border-bottom">
+                  <p class="fst-italic mb-2">
+                    "Donna was amazing! She helped us find our perfect home and made the
+                    entire process stress-free."
+                  </p>
+                  <div class="d-flex align-items-center">
+                    <div class="text-primary me-2"><i class="fas fa-user-circle"></i></div>
+                    <strong>John Doe</strong>
+                  </div>
+                </div>
+                <div class="testimonial">
+                  <p class="fst-italic mb-2">
+                    "I highly recommend Donna to anyone looking to buy or sell a home. She's
+                    professional, responsive, and truly cares about her clients."
+                  </p>
+                  <div class="d-flex align-items-center">
+                    <div class="text-primary me-2"><i class="fas fa-user-circle"></i></div>
+                    <strong>Jane Smith</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="buying-home" class="py-5">
+      <div class="container py-4">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center mb-5">
+            <h2 class="fw-bold mb-4">Buying a Home</h2>
+            <div class="divider-custom mx-auto mb-4">
+              <div class="divider-custom-line"></div>
+              <div class="divider-custom-icon"><i class="fas fa-key"></i></div>
+              <div class="divider-custom-line"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <div class="p-4 bg-light rounded shadow-sm">
+              <p class="lead">
+                Buying a home is one of the most significant investments you'll make.
+                Let me help you navigate the process with ease.
+              </p>
+              <p>
+                From understanding your needs and budget to finding the right property
+                and negotiating the best deal, I'm here to support you every step of the
+                way.
+              </p>
+              <a href="#contact" class="btn btn-primary mt-3">Get Started Today</a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card border-0 shadow">
+              <div class="card-header bg-primary text-white">
+                <h3 class="h5 mb-0"><i class="fas fa-list-ol me-2"></i>Steps to Buying a Home</h3>
+              </div>
+              <div class="card-body">
+                <ol class="list-group list-group-numbered">
+                  <li class="list-group-item d-flex align-items-start">
+                    <div class="ms-2">
+                      <div class="fw-bold">Financial Preparation</div>
+                      Determine your budget and get pre-approved for a mortgage.
+                    </div>
+                  </li>
+                  <li class="list-group-item d-flex align-items-start">
+                    <div class="ms-2">
+                      <div class="fw-bold">Define Your Needs</div>
+                      Identify your must-haves and nice-to-haves in a home.
+                    </div>
+                  </li>
+                  <li class="list-group-item d-flex align-items-start">
+                    <div class="ms-2">
+                      <div class="fw-bold">Property Search</div>
+                      Work with me to search for properties that meet your criteria.
+                    </div>
+                  </li>
+                  <li class="list-group-item d-flex align-items-start">
+                    <div class="ms-2">
+                      <div class="fw-bold">Property Viewings</div>
+                      Schedule viewings and find your perfect home.
+                    </div>
+                  </li>
+                  <li class="list-group-item d-flex align-items-start">
+                    <div class="ms-2">
+                      <div class="fw-bold">Negotiation</div>
+                      Negotiate the purchase price and terms.
+                    </div>
+                  </li>
+                  <li class="list-group-item d-flex align-items-start">
+                    <div class="ms-2">
+                      <div class="fw-bold">Closing</div>
+                      Complete the necessary paperwork and close the deal.
+                    </div>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="selling-home" class="py-5 bg-light">
+      <div class="container py-4">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center mb-5">
+            <h2 class="fw-bold mb-4">Selling a Home</h2>
+            <div class="divider-custom mx-auto mb-4">
+              <div class="divider-custom-line"></div>
+              <div class="divider-custom-icon"><i class="fas fa-home"></i></div>
+              <div class="divider-custom-line"></div>
+            </div>
+            <p class="lead">Ready to sell your home? Fill out the form below to get started.</p>
+          </div>
+        </div>
+        
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="card border-0 shadow">
+              <div class="card-body p-4 p-md-5">
+                <form id="selling-form" class="needs-validation" novalidate>
+                  
+                  <div class="card mb-4">
+                    <div class="card-header bg-primary text-white">
+                      <h3 class="h5 mb-0"><i class="fas fa-user me-2"></i>Contact Information</h3>
+                    </div>
+                    <div class="card-body">
+                      <div class="row g-3">
+                        <div class="col-md-6">
+                          <label for="first-name" class="form-label">First Name *</label>
+                          <input type="text" class="form-control" id="first-name" name="first-name" required />
+                          <div class="invalid-feedback">Please provide your first name.</div>
+                        </div>
+                        <div class="col-md-6">
+                          <label for="last-name" class="form-label">Last Name *</label>
+                          <input type="text" class="form-control" id="last-name" name="last-name" required />
+                          <div class="invalid-feedback">Please provide your last name.</div>
+                        </div>
+                        <div class="col-md-6">
+                          <label for="email" class="form-label">Email *</label>
+                          <input type="email" class="form-control" id="email" name="email" required placeholder="e.g. myemail@gmail.com" />
+                          <div class="form-text">Provide a valid email address.</div>
+                          <div class="invalid-feedback">Please provide a valid email address.</div>
+                        </div>
+                        <div class="col-md-6">
+                          <label for="phone-number" class="form-label">Phone Number *</label>
+                          <input type="tel" class="form-control" id="phone-number" name="phone-number" required />
+                          <div class="invalid-feedback">Please provide your phone number.</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="card mb-4">
+                    <div class="card-header bg-primary text-white">
+                      <h3 class="h5 mb-0"><i class="fas fa-map-marker-alt me-2"></i>Mailing Address</h3>
+                    </div>
+                    <div class="card-body">
+                      <div class="row g-3">
+                        <div class="col-12">
+                          <label for="address" class="form-label">Address *</label>
+                          <input type="text" class="form-control" id="address" name="address" required />
+                          <div class="invalid-feedback">Please provide your address.</div>
+                        </div>
+                        <div class="col-md-6">
+                          <label for="city" class="form-label">City *</label>
+                          <input type="text" class="form-control" id="city" name="city" required />
+                          <div class="invalid-feedback">Please provide your city.</div>
+                        </div>
+                        <div class="col-md-3">
+                          <label for="province" class="form-label">Province</label>
+                          <select class="form-select" id="province" name="province">
+                            <option value="">Select Province</option>
+                            <option value="AB">Alberta</option>
+                          </select>
+                        </div>
+                        <div class="col-md-3">
+                          <label for="postal-code" class="form-label">Postal Code</label>
+                          <input type="text" class="form-control" id="postal-code" name="postal-code" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="card mb-4">
+                    <div class="card-header bg-primary text-white">
+                      <h3 class="h5 mb-0"><i class="fas fa-info-circle me-2"></i>Property Information</h3>
+                    </div>
+                    <div class="card-body">
+                      <div class="row g-3">
+                        <div class="col-md-6 col-lg-3">
+                          <label for="bedrooms" class="form-label">Number of Bedrooms</label>
+                          <select class="form-select" id="bedrooms" name="bedrooms">
+                            <option value="">Select Number</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6+">6 or more</option>
+                          </select>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                          <label for="bathrooms" class="form-label">Number of Bathrooms</label>
+                          <select class="form-select" id="bathrooms" name="bathrooms">
+                            <option value="">Select Number</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6+">6 or more</option>
+                          </select>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                          <label for="square-feet" class="form-label">Square Feet</label>
+                          <select class="form-select" id="square-feet" name="square-feet">
+                            <option value="">Select Range</option>
+                            <option value="less than 1000">Less than 1000</option>
+                            <option value="1000-1500">1000-1500</option>
+                            <option value="1500-2000">1500-2000</option>
+                            <option value="2000-2500">2000-2500</option>
+                            <option value="2500-3000">2500-3000</option>
+                            <option value="3000+">3000 or more</option>
+                          </select>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                          <label for="property-type" class="form-label">Type of Property</label>
+                          <select class="form-select" id="property-type" name="property-type">
+                            <option value="">Select Type</option>
+                            <option value="House">House</option>
+                            <option value="Condo">Condo</option>
+                            <option value="Townhouse">Townhouse</option>
+                            <option value="Duplex">Duplex</option>
+                            <option value="Other">Other</option>
+                          </select>
+                        </div>
+                        <div class="col-md-6">
+                          <label for="price-range" class="form-label">Price Range</label>
+                          <select class="form-select" id="price-range" name="price-range">
+                            <option value="">Select Range</option>
+                            <option value="100k-200k">CAD 100,000 - 200,000</option>
+                            <option value="200k-300k">CAD 200,000 - 300,000</option>
+                            <option value="300k-400k">CAD 300,000 - 400,000</option>
+                            <option value="400k-500k">CAD 400,000 - 500,000</option>
+                            <option value="500k+">CAD 500,000 or more</option>
+                          </select>
+                        </div>
+                        <div class="col-md-6">
+                          <label for="selling-timeline" class="form-label">When do you plan to sell?</label>
+                          <select class="form-select" id="selling-timeline" name="selling-timeline">
+                            <option value="">Select Timeline</option>
+                            <option value="immediately">Immediately</option>
+                            <option value="within-3-months">Within 3 months</option>
+                            <option value="3-6-months">3 to 6 months</option>
+                            <option value="6-12-months">6 to 12 months</option>
+                            <option value="more-than-12-months">More than 12 months</option>
+                          </select>
+                        </div>
+                        <div class="col-12">
+                          <label for="additional-comments" class="form-label">Additional Comments</label>
+                          <textarea class="form-control" id="additional-comments" name="additional-comments" rows="4" placeholder="Please list the additional amenities of your house."></textarea>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                    <button type="submit" class="btn btn-primary btn-lg px-4 py-2">Submit</button>
+                    <button type="reset" class="btn btn-outline-secondary btn-lg px-4 py-2">Reset</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="py-5">
+      <div class="container py-4">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center mb-5">
+            <h2 class="fw-bold mb-4">Contact Me</h2>
+            <div class="divider-custom mx-auto mb-4">
+              <div class="divider-custom-line"></div>
+              <div class="divider-custom-icon"><i class="fas fa-envelope"></i></div>
+              <div class="divider-custom-line"></div>
+            </div>
+            <p class="lead">
+              Have questions or need to get in touch? Fill out the form below or use
+              the appointment scheduling tool.
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6 mb-4 mb-md-0">
+            <div class="card h-100 border-0 shadow">
+              <div class="card-body p-4">
+                <h3 class="h5 mb-4">Send a Message</h3>
+                <form id="contact-form">
+                  <div class="mb-3">
+                    <label for="name" class="form-label">Name *</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="email-contact" class="form-label">Email *</label>
+                    <input type="email" class="form-control" id="email-contact" name="email" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="message" class="form-label">Message *</label>
+                    <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+                <div class="mt-4">
+                  <p class="mb-2">Schedule an appointment:</p>
+                  <a href="https://www.appointlet.com/donna-real-estate" target="_blank" class="btn btn-outline-primary">
+                    <i class="far fa-calendar-alt me-2"></i>Book an Appointment
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card h-100 border-0 shadow">
+              <div class="card-body p-4">
+                <h3 class="h5 mb-4">Contact Information</h3>
+                <ul class="list-unstyled">
+                  <li class="mb-3">
+                    <div class="d-flex">
+                      <div class="flex-shrink-0 text-primary me-3">
+                        <i class="fas fa-phone"></i>
+                      </div>
+                      <div>
+                        <h4 class="h6 mb-1">Phone</h4>
+                        <p>(780) 555-1234</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="mb-3">
+                    <div class="d-flex">
+                      <div class="flex-shrink-0 text-primary me-3">
+                        <i class="fas fa-envelope"></i>
+                      </div>
+                      <div>
+                        <h4 class="h6 mb-1">Email</h4>
+                        <p>donna@realestate.com</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="d-flex">
+                      <div class="flex-shrink-0 text-primary me-3">
+                        <i class="fas fa-map-marker-alt"></i>
+                      </div>
+                      <div>
+                        <h4 class="h6 mb-1">Office</h4>
+                        <p>123 Real Estate Ave<br>Edmonton, AB T5K 2L9</p>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+                <div class="mt-4">
+                  <h3 class="h5 mb-3">Follow Me</h3>
+                  <div class="d-flex">
+                    <a href="#" class="btn btn-outline-primary me-2"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="btn btn-outline-primary me-2"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="btn btn-outline-primary me-2"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faqs" class="py-5 bg-light">
+      <div class="container py-4">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center mb-5">
+            <h2 class="fw-bold mb-4">Frequently Asked Questions</h2>
+            <div class="divider-custom mx-auto mb-4">
+              <div class="divider-custom-line"></div>
+              <div class="divider-custom-icon"><i class="fas fa-question"></i></div>
+              <div class="divider-custom-line"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="accordion" id="faqAccordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    What areas do you serve?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    Donna serves the entire Edmonton area and surrounding communities.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    How do you handle transactions?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    Donna believes in transparency and keeps her clients informed at every step of the transaction. She works closely with her clients to ensure they understand all aspects of the buying or selling process.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Why should I choose Donna?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    Donna's experience, integrity, and dedication to her clients set her apart. She goes above and beyond to ensure her clients' needs are met and their transactions are successful.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-white py-4">
+      <div class="container">
+        <div class="row gy-4 align-items-center">
+          <div class="col-md-4">
+            <h4 class="mb-3">Donna's Real Estate</h4>
+            <p class="mb-0">Helping you find your dream home since 2008.</p>
+          </div>
+          <div class="col-md-4">
+            <h5 class="mb-3">Quick Links</h5>
+            <ul class="list-unstyled mb-0">
+              <li><a href="#home" class="text-white-50 text-decoration-none">Home</a></li>
+              <li><a href="#about" class="text-white-50 text-decoration-none">About</a></li>
+              <li><a href="#buying-home" class="text-white-50 text-decoration-none">Buying</a></li>
+              <li><a href="#selling-home" class="text-white-50 text-decoration-none">Selling</a></li>
+              <li><a href="#contact" class="text-white-50 text-decoration-none">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5 class="mb-3">Subscribe to Newsletter</h5>
+            <form>
+              <div class="input-group mb-3">
+                <input type="email" class="form-control" placeholder="Your Email" aria-label="Your Email" aria-describedby="subscribe-btn">
+                <button class="btn btn-primary" type="button" id="subscribe-btn">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <hr class="my-4">
+        <div class="row">
+          <div class="col-md-6 text-center text-md-start">
+            <p class="mb-0">&copy; 2025 Donna's Real Estate. All rights reserved.</p>
+          </div>
+          <div class="col-md-6 text-center text-md-end">
+            <a href="#" class="text-white-50 me-2"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-white-50 me-2"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-white-50"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
