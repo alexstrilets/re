@@ -3,7 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Donna's Real Estate Website</title>
+    <meta name="description" content="Donna's Real Estate Services - Experience, integrity, and dedication in buying and selling homes in Edmonton. Professional realtor with over 15 years of experience." />
+    <meta name="keywords" content="real estate, buying home, selling home, Edmonton realtor, Donna's Real Estate, Edmonton homes, property listings, home valuation, real estate agent" />
+    <meta name="author" content="Donna's Real Estate" />
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
+    <meta property="og:title" content="Donna's Real Estate Services - Edmonton's Trusted Realtor" />
+    <meta property="og:description" content="Experience, integrity, and dedication in buying and selling homes in Edmonton. Professional realtor with over 15 years of experience." />
+    <meta property="og:image" content="https://www.donnasrealestate.com/images/main.jpeg" />
+    <meta property="og:url" content="https://www.donnasrealestate.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_CA" />
+    <meta property="og:site_name" content="Donna's Real Estate" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Donna's Real Estate Services - Edmonton's Trusted Realtor" />
+    <meta name="twitter:description" content="Experience, integrity, and dedication in buying and selling homes in Edmonton." />
+    <meta name="twitter:image" content="https://www.donnasrealestate.com/images/main.jpeg" />
+    <link rel="canonical" href="https://www.donnasrealestate.com" />
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" href="/favicon.ico">
+    <title>Donna's Real Estate Services - Edmonton Realtor | Buying & Selling Homes</title>
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
@@ -15,7 +38,7 @@
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
@@ -75,8 +98,8 @@
         class="hero-overlay position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"
       ></div>
       <div class="container position-relative py-5">
-        <div class="row py-5">
-          <div class="col-lg-8 mx-auto text-center py-5">
+        <div class="row py-5 align-items-center">
+          <div class="col-lg-7 mb-4 mb-lg-0">
             <h1 class="display-4 fw-bold mb-4">
               Welcome to Donna's Real Estate Services
             </h1>
@@ -89,7 +112,7 @@
               Whether you're buying or selling, I'm here to guide you every step
               of the way.
             </p>
-            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-start">
               <a
                 href="#contact"
                 class="btn btn-light btn-lg px-4 me-sm-3 fw-bold"
@@ -98,6 +121,11 @@
               <a href="#about" class="btn btn-outline-light btn-lg px-4"
                 >Learn More</a
               >
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="hero-image-container">
+              <img src="images/main.jpeg" alt="Donna - Your Trusted Realtor" class="hero-image img-fluid rounded shadow">
             </div>
           </div>
         </div>
@@ -136,7 +164,7 @@
           <div class="col-md-6">
             <div class="card border-0 shadow">
               <div class="card-header bg-primary text-white">
-                <h3 class="h5 mb-0 text-center">
+                <h3 class="h5 mb-0">
                   <i class="fas fa-quote-left me-2"></i>Testimonials
                 </h3>
               </div>
@@ -898,6 +926,17 @@
             ></a>
           </div>
         </div>
+        <div class="row mt-4 pt-4 border-top border-secondary">
+          <div class="col-md-6 text-center text-md-start">
+            <p class="small mb-0">Copyright 2025 Donna's Real Estate. All rights reserved.</p>
+          </div>
+          <div class="col-md-6 text-center text-md-end">
+            <p class="small mb-0">
+              <a href="/sitemap.xml" class="text-white text-decoration-none">Sitemap</a> |
+              <a href="/privacy-policy" class="text-white text-decoration-none">Privacy Policy</a>
+            </p>
+          </div>
+        </div>
       </div>
     </footer>
 
@@ -907,7 +946,57 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
-    <!-- Custom JS -->
+    <!-- Custom JavaScript -->
     <script src="script.js"></script>
+    <!-- Structured Data for Local Business -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "RealEstateAgent",
+      "name": "Donna's Real Estate Services",
+      "image": "https://www.donnasrealestate.com/images/main.jpeg",
+      "url": "https://www.donnasrealestate.com",
+      "telephone": "+1-780-555-1234",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Main Street",
+        "addressLocality": "Edmonton",
+        "addressRegion": "AB",
+        "postalCode": "T5J 1N5",
+        "addressCountry": "CA"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 53.5461,
+        "longitude": -113.4938
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "09:00",
+          "closes": "17:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "10:00",
+          "closes": "15:00"
+        }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/donnasrealestate",
+        "https://www.instagram.com/donnasrealestate",
+        "https://www.linkedin.com/in/donnasrealestate"
+      ],
+      "priceRange": "$$"
+    }
+    </script>
   </body>
 </html>

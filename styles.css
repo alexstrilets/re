@@ -15,6 +15,25 @@ body {
   align-items: center;
 }
 
+/* Hero image styles */
+.hero-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image {
+  max-width: 100%;
+  border: 5px solid white;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  transform: rotate(2deg);
+  transition: transform 0.3s ease;
+}
+
+.hero-image:hover {
+  transform: rotate(0deg) scale(1.02);
+}
+
 /* Custom divider */
 .divider-custom {
   width: 100%;
@@ -115,5 +134,30 @@ footer a:hover {
   
   .lead {
     font-size: 1rem;
+  }
+  
+  .hero-image-container {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-image {
+    max-width: 80%;
+    margin: 0 auto;
+    transform: rotate(0deg);
+  }
+}
+
+@media (max-width: 576px) {
+  #home {
+    text-align: center;
+  }
+  
+  .hero-image {
+    max-width: 90%;
+  }
+  
+  .justify-content-sm-start {
+    justify-content: center !important;
   }
 }
